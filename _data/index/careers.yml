@@ -1,0 +1,91 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+
+- name:
+    detail: Talview
+    link: https://www.talview.com/
+  desc:
+    detail: Talview is a Bay Area-based AI enabled Talent Assessment technology provider. It provides "digital interviewing", "Intelligent Remote Proctoring" and "hiring analytics" software as a service to its clients
+    # readmore: exp/umass
+  date:
+    detail: Aug 2019 - Present
+  job:
+    detail: DevOps Engineer
+  icon: fa-briefcase
+
+- name:
+    detail: Reinforcement Learning
+    link: 
+  desc:
+    detail: Syllabus included Introduction to Reinforcement learning, Multi-armed bandits, Finite Markov decision processes, Dynamic Programming, Monte-Carlo Methods, Temporal difference methods, on-policy prediction and control.
+  date:
+    detail: June 2019
+  job:
+    detail: Reinforcement Learning
+  icon: fa-address-card
+
+- name:
+    detail: Deep Learning Specialization
+    link: https://www.coursera.org/account/accomplishments/specialization/certificate/PCKJE2YDTRRG
+  desc:
+    detail: The Deep Learning Specialization is designed to prepare learners to participate in the development of cutting-edge AI technology, and to understand the capability, the challenges, and the consequences of the rise of deep learning. 
+  date:
+    detail: October 2018
+  job:
+    detail: Deep Learning Specialization
+  icon: fa-address-card
+
+- name:
+    detail: AWS Certified Developer - Associate
+    link: https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2018-04-21&ci=AWS00496525
+  desc:
+    detail: The AWS Certified Developer examination is intended for individuals who perform a develop role and have one or more years of hands-on experience developing and maintaining an AWS based application.
+  date:
+    detail: April 2018
+  job:
+    detail: AWS Certified Developer - Associate
+  icon: fa-address-card
+
+- name:
+    detail: Intuit Inc.
+    link: https://www.intuit.com/
+  desc:
+    detail: Automation, CICD, DevOps, Cloud Adaption and Tools building.
+  date:
+    detail: Aug 2018 - Sep 2018
+  job:
+    detail: Cloud Adaption Engineer 2
+  icon: fa-briefcase
+
+- name:
+    detail: Intuit Inc.
+    link: https://www.intuit.com/
+  desc:
+    detail: Automation, CICD, DevOps, Cloud Adaption and Tools building.
+  date:
+    detail: Aug 2016 - July 2018
+  job:
+    detail: DevOps Engineer
+  icon: fa-briefcase
+
+- name:
+    detail: Intuit Inc.
+    link: https://www.intuit.com/
+  desc:
+    detail: Automation, CICD, DevOps, Cloud Adaption and Tools building.
+  date:
+    detail: Jan 2016 - July 2016
+  job:
+    detail: Co-op Intern
+  icon: fa-briefcase
+
+- name:
+    detail: PES Institute of Technology, Bengaluru
+    link: http://cs.pes.edu/
+  desc:
+    detail: As an undergrad I cemented my fundamentals of computer science and also got a good introduction to interesting domains like Machine Learning, Natural Language Processing (NLP) and BigData.
+  date:
+    detail: Aug 2012 - May 2016
+  job:
+    detail: BE Computer Science and Engineering
+  icon: fa-graduation-cap

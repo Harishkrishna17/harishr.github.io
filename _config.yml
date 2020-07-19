@@ -1,0 +1,117 @@
+# Website settings
+title: Harish R
+description: >- # this means to ignore newlines until "baseurl:"
+  You've reached personal website of Harish R.
+baseurl:  ""
+url: "http://harish.github.io/homepage"
+author:  # change following line to your infomation.
+  name: Harish R  # Be used at blog posts' author.
+  first_name: Harish  # Be used at index page about me section.
+  last_name: R  # Be used at index page about me section.
+  avatar: /static/assets/img/landing/harish.jpg  # upload your avatar at directory and edit it.
+  github_username: Harish R  # Leave blank if you don't have now
+  linkedin_id: harish-rajendran-361808112 # Leave blank if you don't have now
+  email: harishkrishna17@gmail.com  # Leave blank if you don't have now
+  cv:  # An online CV can be printed as PDF, leave blank if you don't have now
+  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
+  skill_icon1:
+    - icon: python
+      name: icon-python
+      source: mfizz
+    - icon: aws
+      name: fa-aws
+      source: font-awesome
+    - icon: linux
+      name: fa-linux
+      source: font-awesome
+    - icon: github
+      name: fa-github-square
+      source: font-awesome
+    - icon: php
+      name: icon-php
+      source: mfizz
+    - icon: mongodb
+      name: icon-mongodb
+      source: mfizz
+    - icon: docker
+      name: devicon-docker-plain
+      source: devicon
+    - icon: redis
+      name: icon-redis
+      source: mfizz
+
+  skill_icon2:
+    - icon: html
+      name: fa-html5
+      source: font-awesome
+    - icon: javascript
+      name: icon-javascript
+      source: mfizz
+    - icon: jquery
+      name: icon-jquery
+      source: mfizz
+    - icon: angular
+      name: icon-angular
+      source: mfizz
+    - icon: css3
+      name: icon-css3
+      source: mfizz
+    - icon: bootstrap
+      name: devicon-bootstrap-plain-wordmark
+      source: devicon
+    - icon: jenkins
+      name: fa-jenkins
+      source: font-awesome
+    - icon: shell
+      name: icon-shell
+      source: mfizz
+
+  desc: ""
+
+#other pages
+include: ["_pages"]
+
+# comment
+# disqus: 
+#   name: Harish
+
+# analytics
+## google analytics
+ga:
+  id: UA-133822481-1
+
+## google optimize
+#go:
+  # id:
+
+## growingIO
+gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+  # id:
+
+## donation
+donation: off  # type 'on'/'off' to choice display donation button at post page or not
+
+## carousels
+index_carousel: on  # index page carousel switch
+blog_carousel: on  # blog page carousel switch
+
+# scss
+sass:
+  style: compressed
+
+# Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rogue
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rogue
+
+plugins:
+  - jekyll-feed 
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll_inline_highlight
+  - jekyll-last-modified-at
